@@ -1,8 +1,7 @@
 name: Close stale PRs
 
-# on:
-#   schedule:
-#   - cron: "0 0 * * *"
+on:
+  release: [published]
 
 jobs:
   stale:
